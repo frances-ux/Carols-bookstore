@@ -1,7 +1,7 @@
 require('dotenv').config();
 const express = require('express');
 const morgan = require('morgan');
-const path = require('path');
+const path = require('node:path');
 const methodOverride = require('method-override');
 const session = require('express-session');
 const passport = require('passport');
